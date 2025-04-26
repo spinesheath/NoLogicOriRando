@@ -3,6 +3,7 @@
 if (!File.Exists("randomizer.dat"))
 {
   Console.WriteLine("Place randomizer.dat next to this app.");
+  Console.ReadKey();
   return;
 }
 
